@@ -6,3 +6,9 @@
 - keras : for nural network
 - flask : for front-end UI
 - scipy.misc : for image reading and resizing
+
+<b>Screen 1:</b>
+<img src="Output1.JPG"/>
+
+<b>Screen 2:</b>
+<img src="Output2.JPG"/>
