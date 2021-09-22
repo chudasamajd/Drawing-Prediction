@@ -1,11 +1,7 @@
 import numpy as np
-from PIL import Image
 from keras.models import load_model
-from scipy.misc import imsave, imread, imresize
-#from matplotlib.pyplot import imsave, imread 
+from scipy.misc import imread, imresize
 from prepare_data import normalize
-import imageio
-import cv2
 from flask import Flask,render_template, request
 import base64
 import json
@@ -50,7 +46,6 @@ def home():
     print(pred)
     print(list(val[0]))
     return render_template("index2.html", preds=list(val[0]), classes=json.dumps(classes), chart=True, putback=request.form["payload"], net=net)
-    #return render_template("index1.html")
-
+    
 if __name__ == "__main__":
     app.run()
