@@ -8,7 +8,7 @@
 - scipy.misc : for image reading and resizing
 
 <b>Screen 1:</b>
-<img src="Output1.JPG"/>
+<img src="Drawing Predication.JPG"/>
 
 <b>Screen 2:</b>
-<img src="Output2.JPG"/>
+<img src="Drawing Predication2.JPG"/>
